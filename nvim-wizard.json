@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "api": "ollama",
+    "base_url": "http://ollama.workstation.local",
+    "request": {
+      "options": {
+        "num_ctx": 16384,
+        "temperature": 0
+      }
+    }
+  },
+  "presets": [
+    {
+      "name": "Qwen 2.5 Coder · 0.5B",
+      "model": "qwen2.5-coder:0.5b"
+    },
+    {
+      "name": "Qwen 2.5 Coder · 3B",
+      "model": "qwen2.5-coder:3b"
+    },
+    {
+      "name": "Qwen 3.5 · 4B",
+      "model": "qwen3.5:4b"
+    },
+    {
+      "name": "GPT OSS · 20B",
+      "model": "gpt-oss:20b"
+    }
+  ]
+}
