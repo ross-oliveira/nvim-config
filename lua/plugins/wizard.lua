@@ -1,5 +1,5 @@
 return {
-  "xzxn099/nvim-wizard",
+  "ross-oliveira/nvim-wizard",
   main = "wizard",
   event = { "BufReadPost", "BufNewFile" },
   cmd = { "WizardPrompt", "WizardModels", "WizardAccept", "WizardCancel" },
